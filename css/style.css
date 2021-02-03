@@ -23,9 +23,9 @@ img {
     width: 550px;
     object-fit: contain;
 }
-div body {
-    height: 150px;
-    padding: 10px;
+div {
+    min-height: 150px;
+    padding: 25px;
 }
 #red {
     background-color: #FF0000;
@@ -50,8 +50,10 @@ div body {
     background-color: #008000;
     text-align: left;
 }
-p {
+footer p {
     text-align: center;
     padding-bottom: 10px;
     padding-right: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
 }
